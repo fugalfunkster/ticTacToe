@@ -1,0 +1,61 @@
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+<!-- New Game Bootstrap Modal -->
+<div class="modal fade" id="newGameModal" tabindex="-1" role="dialog" data-backdrop="" aria-labelledby="smallModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3>Pick a Team</h3>
+        <div class="teams">
+          <button type="button" class="btn team"  id="ducks" data-dismiss="modal"><img src="https://s-media-cache-ak0.pinimg.com/originals/cc/2b/50/cc2b50ec1166f2eaa73d9594c1ed198e.jpg"/></button>
+          <button type="button" class="btn team"  id="beavers" data-dismiss="modal"><img src="http://collegevault.com/wp-content/uploads/2014/11/OSU_cv2.png"/></button>
+        </div>
+        <h2>(Beavers Play First)</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Game Over Bootstrap Modal -->
+<div class="modal fade" id="gameOverModal" tabindex="-1" role="dialog" data-backdrop="" aria-labelledby="smallModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3>Game Over!</h3>
+        <h3 class="winningTeam"></h3>
+        <div class="again">
+          <button type="button" class="btn" data-dismiss="modal">Play Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Game Board -->
+<div>
+  <div class="board">
+    <div class="row">
+      <div class="box" id="0"></div>
+      <div class="box" id="1"></div>
+      <div class="box" id="2"></div>
+    </div>
+    <div class="row">
+      <div class="box" id="3"></div>
+      <div class="box" id="4"></div>
+      <div class="box" id="5"></div>
+    </div>
+    <div class="row">
+      <div class="box" id="6"></div>
+      <div class="box" id="7"></div>
+      <div class="box" id="8"></div>
+    </div>
+  </div>
+</div>
+
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
