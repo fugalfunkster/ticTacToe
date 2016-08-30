@@ -1,0 +1,7 @@
+* Unbeatable Tic Tac Toe (Oregon Civil War Edition)
+
+** Description
+This project was the first time I implemented a grown-up algorithm: MiniMax, a venerable, game-theory classic. Before making a move, the computer recursively calculates all possible moves, and ranks them based on their outcome. With that data, the computer simply selects the best move based on that move's possible outcomes. I made my program more performant by generating a random move whenever the computer plays first.
+
+** View Project 
+http://www.fugalfunkster.com/ticTacToe/
